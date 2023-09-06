@@ -23,7 +23,7 @@
     p.mb-4 Es importante comprender que computacionalmente las máquinas están en capacidad de hacer unas pocas operaciones matemáticas muy básicas y sencillas, pero también se considera que computan enormes cantidades de estas operaciones en unidades de tiempo muy corto.
     p.mb-4 Entonces, la solución de un problema utilizando computadoras, fácilmente se puede convertir en una enorme cantidad de pequeñas operaciones matemáticas, tal vez abrumadoras desde el punto de vista humano. Es por eso que se requiere la especialización de conjuntos de operaciones, los cuales se agrupan en pequeños procesos que componen la solución de un problema.
     .row.mb-5
-      .col-6
+      .col-lg-auto
         a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=U3CGMyjzlvM" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
