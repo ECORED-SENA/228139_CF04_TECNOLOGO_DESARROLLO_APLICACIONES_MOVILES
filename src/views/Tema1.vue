@@ -42,7 +42,7 @@
       .col-12.col-lg-6.mt-4.mt-lg-0.j
         h4 Como se observa en la figura el aprendiz A inició realizando una línea vertical hacia arriba, mientras que el aprendiz B una vertical hacia abajo, o el aprendiz D una horizontal hacia la derecha, y todos los siguientes llevaron a cabo un proceso que les permitió cumplir con la solución al problema planteado, de forma global prácticamente existe una gran cantidad de soluciones al mismo problema.
 
-    p.mb-4 Al imaginar que el problema es mucho más complejo que el descrito en el ejemplo anterior se concluye que existen tantas soluciones como el enfoque o lógica empleada por cada aprendiz o persona. Pero lo que sí es común en todos los casos es que se realizaron unas fases mentales secuencialmente ordenadas, las cuales son:
+    p.mb-4 Al imaginar que el problema es mucho más complejo que el descrito en el ejemplo anterior, se concluye que existen tantas soluciones como el enfoque o lógica empleada por cada aprendiz o persona. Pero lo que sí es común en todos los casos es que se realizaron unas fases mentales secuencialmente ordenadas, las cuales son:
     ol.lista-ol--cuadro.mb-4
       li 
         .lista-ol--cuadro__vineta

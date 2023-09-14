@@ -47,7 +47,7 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Operador AND (y) conjunción").justify-content-center
             .col-11
-              p.mb-4 Conecta dos proposiciones que se deben unir para que se pueda obtener un resultado verdadero, esta se representa por el siguiente símbolo ∧.
+              p.mb-4 Conecta dos proposiciones que se deben unir para que se pueda obtener un resultado verdadero, esta se representa por el siguiente símbolo #[b ∧].
               h5 Ejemplo:
               .list.align-items-star
                 .list__item
@@ -70,7 +70,7 @@
           div(titulo="Operador OR (o) disyunción")
             .row.justify-content-center
               .col-11
-                p.mb-4 Conecta dos proposiciones y se obtiene una proposición compuesta verdadera cuando por lo menos unas de las proposiciones son verdaderas.
+                p.mb-4 Conecta dos proposiciones y se obtiene una proposición compuesta verdadera cuando por lo menos unas de las proposiciones son verdaderas. Se representa con el símbolo #[b v]
                 h5 Ejemplo:
                 .list.align-items-star
                   .list__item
@@ -93,7 +93,7 @@
           div(titulo="Operador NOT (no) negación")
             .row.justify-content-center
               .col-11
-                p.mb-4 Su propósito es negar una proposición, es decir, que si tenemos una proposición verdadera al aplicarle este tipo de operador se obtiene la negación, es decir, es falso.
+                p.mb-4 Su propósito es negar una proposición, es decir, que si tenemos una proposición verdadera al aplicarle este tipo de operador se obtiene la negación, es decir, es falso. Se representa con el símbolo #[b ¬]
                 h5 Ejemplo:
                 .list.align-items-star
                   .list__item
@@ -123,7 +123,7 @@
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            h4.mb-0 una proposición puede ser verdadera o falsa únicamente, nunca ambas.
+            h4.mb-0 Una proposición puede ser verdadera o falsa únicamente, nunca ambas.
             i.fas.fa-quote-right
 
     .row.mb-5
@@ -164,7 +164,7 @@
               tr
                 th P
                 th Q
-                th P Ù Q
+                th P ^ Q
             tbody
               tr.bgt1
                 td V
@@ -191,7 +191,7 @@
               tr
                 th P
                 th Q
-                th P Ù Q
+                th P ^ Q
             tbody
               tr.bgt1
                 td 1
@@ -221,7 +221,7 @@
               tr
                 th P
                 th Q
-                th P &#94; Q
+                th P v Q
             tbody
               tr.bgt1
                 td V
@@ -248,7 +248,7 @@
               tr
                 th P
                 th Q
-                th P &#94; Q
+                th P v Q
             tbody
               tr.bgt1
                 td 1
@@ -329,21 +329,21 @@
                         th P → Q
                     tbody
                       tr.bgt1
-                        td 1
-                        td 1
-                        td 1
+                        td V
+                        td V
+                        td V
                       tr
-                        td 1
-                        td 0
-                        td 0
+                        td V
+                        td F
+                        td F
                       tr.bgt1
-                        td 0
-                        td 1
-                        td 1
+                        td F
+                        td V
+                        td V
                       tr
-                        td 0
-                        td 0
-                        td 1
+                        td F
+                        td F
+                        td V
               .col-lg-2.my-3.j 
                 h4 O puede ser
               .col-lg-5.my-3
