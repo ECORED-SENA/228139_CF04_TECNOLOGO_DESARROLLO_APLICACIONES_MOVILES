@@ -362,7 +362,7 @@
                       tr
                         td 1
                         td 0
-                        td 1
+                        td 0
                       tr.bgt1
                         td 0
                         td 1
@@ -370,7 +370,7 @@
                       tr
                         td 0
                         td 0
-                        td 0            
+                        td 1           
 
             p.mb-4 De igual manera existe una proposición bicondicional que indica que una proposición es verdadera si y solo si las proposiciones simples o compuestas que forman la proposición son verdaderas o son falsas si y solo si ambas proposiciones son falsas, esta se representa y se lee de la siguiente manera:
             p p ↔ q se lee "p si solo si q"
@@ -577,7 +577,7 @@
         img.img-a.img-t(src='@/assets/curso/temas/img21.png', style='max-width: 100%;')
       .col-11.hr1.p-3.my-3
         .h6 Identificar el problema
-        p.mb-0 Se trata de buscar o contratar personal femenino que sepa utilizar Microsoft Office o Google Suite.
+        p.mb-0 Se trata de buscar o contratar personal femenino que sepa utilizar Microsoft Office o Google #[i Suite].
     .row.align-items-center.mb-4
       .col-lg-auto.my-3
         img.img-a.img-t(src='@/assets/curso/temas/img22.png', style='max-width: 100%;')
@@ -587,7 +587,7 @@
         ol
           li #[b p:] es personal femenino.
           li #[b q:] sabe utilizar el Microsoft Office.
-          li #[b r:] sabe utilizar la suite de Google.
+          li #[b r:] sabe utilizar la #[i suite] de Google.
 
     .row.align-items-center.mb-4
       .col-lg-auto.my-3
@@ -613,7 +613,7 @@
           .bloque-texto-a__texto.p-4
             p.mb-4 Crear la tabla de verdad y aplicar la lógica proposicional para elegir las personas que cumplan con los requisitos exigidos.
             p Para la construcción de la tabla de verdad se evalúa cada una de las preposiciones atómicas  y, se van validando para verificar si se cumple lo que la haría verdadera o si no se cumple, lo cual haría que la proposición sea falsa.
-    p.mb-5 Se analiza cada posible caso por lo que se evalúa a Juan, para la primera proposición sería un valor falso, ya que p requiere que sea personal femenino, el cual se pondrá en la columna 2, luego se evalúa si Juan sabe utilizar Microsoft Office o la Suite de Google, el valor va en la columna tres y por último, se evalúa la conjunción para determinar la solución.
+    p.mb-5 Se analiza cada posible caso por lo que se evalúa a Juan, para la primera proposición sería un valor falso, ya que p requiere que sea personal femenino, el cual se pondrá en la columna 2, luego se evalúa si Juan sabe utilizar Microsoft Office o la #[i Suite] de Google, el valor va en la columna tres y por último, se evalúa la conjunción para determinar la solución.
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido
